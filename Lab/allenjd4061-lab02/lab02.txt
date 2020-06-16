@@ -1,0 +1,6 @@
+After the code was executed, the array contained the
+elements {0, 4, 11, 0, 44, 0, 4195376, 2}. The output
+received was not expected. The value of data[6] was
+extraneous. This is due to the value of data[6] never
+being assigned in the code. This caused the program
+to print whatever was previously stored in memory.
